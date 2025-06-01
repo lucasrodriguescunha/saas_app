@@ -35,8 +35,6 @@ const CompanionForm = () => {
 
     // 2. Defina um manipulador de envio.
     const onSubmit = (values: z.infer<typeof formSchema>) => {
-        // Faça algo com os valores do formulário.
-        // ✅ Isso será seguro em termos de tipo e validado.
         console.log(values)
     }
 
